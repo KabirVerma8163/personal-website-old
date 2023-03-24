@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
-import TypeWriter from './TypeWriter' 
+import TypeWriter from './typewriter' 
 import Link from 'next/link'
 import Card from './card'
 

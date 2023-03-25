@@ -8,7 +8,7 @@ import Card from './card'
 const strings = [
   'Student',
   'Developer',
-  'Collaborator',
+  'Collaborator'
   // 'Communicator',
 ]
 

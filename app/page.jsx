@@ -22,7 +22,7 @@ export default function Home() {
       <div id="introduction" className={`flex flex-col ${main_lgCSS} ${main_smCSS}`}>
         <div id="header" className="flex flex-col py-2 pb-4">
           <h1 className="lg:text-8xl md:text-4xl text-3xl font-bold">Hi, my name is <span className="text-white">Kabir</span></h1>
-          <h2 className="lg:text-6xl md:text-3xl lg:pt-2 pt-1 text-2xl font-bold">I'm a <TypeWriter strings={strings} colorClass="text-white" /></h2>
+          <h2 className="lg:text-6xl md:text-3xl lg:pt-2 pl-2 pt-1 text-2xl font-bold">I'm a <TypeWriter strings={strings} colorClass="text-white" /></h2>
         </div>
         <div id="intro-para" className="lg:text-4xl lg:mt-6  font-medium lg:text-justify text-discordBlue">
           <p >I'm a student at the University of Waterloo studying Computer Science and Mathematics. I'm passionate about building things that make a difference in the world. I'm currently looking for a co-op position for Summer 2023.</p>

@@ -15,7 +15,7 @@ export default function PdfPage() {
           content="https://example.com/my-pdf-document.pdf"
         />
       </Head>
-      <iframe src="https://drive.google.com/file/d/1S3BKkenXp6l-9DZJrsG5Olj_wiS_Q0B-/preview" width="100%" height="100%" allow="autoplay"></iframe>
+      <iframe src="https://drive.google.com/file/d/1S3BKkenXp6l-9DZJrsG5Olj_wiS_Q0B-/preview" width="100%" height="100%" allow="autoplay" className='lg:h-full h-3/5'></iframe>
     </>
   );
 }

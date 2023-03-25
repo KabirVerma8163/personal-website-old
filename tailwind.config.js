@@ -15,6 +15,10 @@ module.exports = {
         '3': '3 1 0%',
         '4': '4 1 0%',
         '5': '5 1 0%',
+        '6': '6 1 0%',
+        '7': '7 1 0%',
+        '8': '8 1 0%',
+        '9': '9 1 0%',
       },
       colors: {
         "lightPink": {
@@ -33,4 +37,5 @@ module.exports = {
     },
   },
   plugins: [],
+  // output: "./public/css/tailwind.css",
 }

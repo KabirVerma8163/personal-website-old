@@ -5,7 +5,7 @@ import { Ubuntu } from "next/font/google"
 const karla = Ubuntu({
   weight: ["400", "700"],
   subsets: ["latin"],
-})
+})   
 
 export const metadata = {
   title: 'Kabir\'s Website',
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className={`${karla.className} sm:h-auto h-screen flex justify-center items-center mx-8 my-4`}>
+      <body className={`${karla.className} h-screen flex justify-center items-center mx-8 my-4`}>
         {children}
       </body>
       {/* // border border-black */}

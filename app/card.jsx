@@ -24,7 +24,7 @@ export default function Card({ cardId, cardLink, cardImage, cardName, colorClass
       />
     </div>
     <div className="cardText flex justify-center items-center">
-      <h1 className={`${lato.className} lg:text-xl sm:text-base text-center p-2`}>
+      <h1 className={`${lato.className} lg:text-xl sm:text-base text-center p-2 pb-0`}>
         {cardName}
       </h1>
     </div>

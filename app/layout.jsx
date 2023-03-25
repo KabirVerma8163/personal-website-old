@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         {/* <title>Kabir's Website</title> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className={`${karla.className} h-screen flex justify-center items-center mx-8 my-4`}>
+      <body className={`${karla.className} h-screen flex justify-center items-center mx-8 px-8 mb-0`}>
         {children}
       </body>
       {/* // border border-black */}

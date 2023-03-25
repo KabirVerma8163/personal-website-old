@@ -24,7 +24,7 @@ export default function Home() {
           <h1 className="lg:text-8xl md:text-4xl text-3xl font-bold">Hi, my name is <span className="text-white">Kabir</span></h1>
           <h2 className="lg:text-6xl md:text-3xl lg:pt-2 lg:pl-1 pt-3 text-2xl font-bold">I'm a <TypeWriter strings={strings} colorClass="text-white" /></h2>
         </div>
-        <div id="intro-para" className="lg:text-4xl lg:mt-6 font-medium text-discordBlue">
+        <div id="intro-para" className="lg:text-4xl lg:mt-4 font-medium text-discordBlue">
           <p className='lg:mx-4 lg:mt-6 mx-1 leading-normal '>As a Computer Science student @ UWaterloo I'm passionate about building technology that make a difference in the world. I love networking, coding and problem-solving. Having worked on many Full-Stack projects, I am exploring Data Science and Firmware. I'm looking for a co-op position for Summer 2023. 
           <Link className="text-diffGreen" href="/my-resume"> My Resume!</Link></p>
         </div>

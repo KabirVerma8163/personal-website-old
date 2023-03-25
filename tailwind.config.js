@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      margin :{
+        '13' : '3.25rem',
+      },
       flex: {
         '2': '2 1 0%',
         '3': '3 1 0%',

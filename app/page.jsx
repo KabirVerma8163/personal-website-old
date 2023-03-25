@@ -31,7 +31,7 @@ export default function Home() {
 
       </div>
 
-      <div id="links" className="flex flex-row flex-4 lg:pt-7 lg:px-8 lg:mx-14 text-white">
+      <div id="links" className="flex flex-row flex-4 lg:pt-7 lg:px-14 lg:mx-10 text-white">
         <Card cardId="Github" cardLink="https://github.com/KabirVerma8163" cardImage="https://www.logo.wine/a/logo/GitHub/GitHub-Icon-White-Dark-Background-Logo.wine.svg" cardName="My Github" colorClass="text-white"/>
         <Card cardId="" cardLink="" cardImage="/coming_soon.jpg" cardName="Coming soon" colorClass="bg-grey-500 text-grey-500"/>
         <Card cardId="" cardLink="" cardImage="/coming_soon.jpg" cardName="Coming soon" colorClass="bg-grey-500 text-grey-500"/>

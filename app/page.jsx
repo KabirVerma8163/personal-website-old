@@ -18,15 +18,14 @@ export default function Home() {
   let main_smCSS = "flex-5 pb-2 sm:mb-2 sm:mx-2 "
   let main_lgCSS = "lg:flex-5 lg:my-1 lg:mx-12 lg:py-4 lg:px-16 lg:px-4"
   return (
-    <main className="h-screen w-screen flex flex-col ">
+    <main className="h-screen w-screen flex flex-col lg:m-0 m-2">
       <div id="introduction" className={`flex flex-col ${main_lgCSS} ${main_smCSS}`}>
         <div id="header" className="flex flex-col py-2 pb-4">
           <h1 className="lg:text-8xl md:text-4xl text-3xl font-bold">Hi, my name is <span className="text-white">Kabir</span></h1>
-          <h2 className="lg:text-6xl md:text-3xl lg:pt-2 pl-2 pt-1 text-2xl font-bold">I'm a <TypeWriter strings={strings} colorClass="text-white" /></h2>
+          <h2 className="lg:text-6xl md:text-3xl lg:pt-2 lg:pl-1 pt-3 text-2xl font-bold">I'm a <TypeWriter strings={strings} colorClass="text-white" /></h2>
         </div>
-        <div id="intro-para" className="lg:text-4xl lg:mt-6  font-medium lg:text-justify text-discordBlue">
-          <p >I'm a student at the University of Waterloo studying Computer Science and Mathematics. I'm passionate about building things that make a difference in the world. I'm currently looking for a co-op position for Summer 2023.</p>
-          <p >I love coding and problem-solving. I have worked on many Full-Stack projects before and am currently working my Data Science and Firmware skills. 
+        <div id="intro-para" className="lg:text-4xl lg:mt-6 font-medium text-discordBlue">
+          <p className='lg:mx-4 lg:mt-6 mx-1'>As a Computer Science student @ UWaterloo I'm passionate about building technology that make a difference in the world. I love networking, coding and problem-solving. Having worked on many Full-Stack projects, I am exploring Data Science and Firmware. I'm looking for a co-op position for Summer 2023. 
           <Link className="text-diffGreen" href="/my-resume"> My Resume!</Link></p>
         </div>
 

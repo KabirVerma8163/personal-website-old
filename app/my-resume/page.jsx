@@ -4,7 +4,8 @@ export default function PdfPage() {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
+        <meta name="viewport" content="initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="My PDF document" />
         <meta name="keywords" content="PDF, document" />

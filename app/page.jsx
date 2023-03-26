@@ -20,7 +20,7 @@ export default function Home() {
   main_mdCSS = ""
   let main_lgCSS = "lg:flex-5 lg:my-1 lg:mx-12 lg:py-4 lg:px-16 lg:px-4"
   return (
-    <main className="h-screen w-screen flex flex-col lg:m-14 lg:mb-24 m-2">
+    <main className="h-screen w-screen flex flex-col lg:m-10 lg:mb-26  m-2">
       <div id="introduction" className={`flex flex-col ${main_lgCSS} ${main_smCSS} ${main_mdCSS}`}>
         <div id="header" className="flex flex-col py-2 pb-4">
           <h1 className="lg:text-8xl md:text-5xl text-3xl font-bold">Hi, my name is <span className="text-stone-100">Kabir</span></h1>

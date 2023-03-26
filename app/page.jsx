@@ -26,9 +26,10 @@ export default function Home() {
           <h1 className="lg:text-8xl md:text-5xl text-3xl font-bold">Hi, my name is <span className="text-stone-100">Kabir</span></h1>
           <h2 className="lg:text-6xl md:text-4xl lg:pt-2 lg:pl-1 pt-3 text-2xl font-bold">I'm a <TypeWriter strings={strings} colorClass="text-stone-100" /></h2>
         </div>
-        <div id="intro-para" className="lg:text-4xl lg:mt-4 md:text-2xl md:mt-2 font-medium text-discordBlue">
-          <p className='lg:mx-4 lg:mt-4 lg:mb-1 mx-1 leading-normal '>As a Computer Science student @ UWaterloo I want to build technology that has an impact. I love networking, coding and problem-solving. Having worked on many Full-Stack projects, I am currently exploring Data Science and Firmware. I'm looking for a co-op position for Summer 2023. 
+        <div id="intro-para" className="lg:text-3xl lg:mt-4 md:text-2xl md:mt-2 font-medium text-discordBlue">
+          <p className='lg:mx-4 lg:mt-4 mx-1 leading-normal'>As a Computer Science student @ UWaterloo I want to build technology that has an impact. I love networking, coding and problem-solving. Having worked on many Full-Stack projects, I am currently exploring Data Science and Firmware. I'm looking for a co-op position for Summer 2023. 
           <Link className="text-diffGreen-200 _hover:scale-105 hover:text-diffGreen-50" href="/my-resume"> My Resume!</Link></p>
+          <p className='lg:mx-4 lg:mb-1 mx-1 leading-normal'>This is just the start, I will be adding more details about my life and coding journey in the coming weeks. Looking forward to everyone's thoughts!</p>
         </div>
 
       </div>

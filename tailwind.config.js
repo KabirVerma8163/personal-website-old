@@ -34,7 +34,8 @@ module.exports = {
           DEFAULT: "#508FF8",
         },
         "diffGreen" : {
-          DEFAULT: "#00B6C3",
+          50  : "#07ed95",
+          200 : "#00B6C3",
         },
       },
     },

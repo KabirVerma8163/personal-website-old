@@ -9,7 +9,7 @@ const lato = Lato({
 
 export default function Card({ cardId, cardLink, cardImage, cardName, colorClass }) {
   return (
-  <div className="px-2">
+  <div className="px-2 hover:filter-opacity-90 hover:transform hover:scale-125 transition hover:duration-20r0 hover:ease-in-out">
   <Link href={cardLink}>
   <div id={cardId} className={"h-full w-full border-none " + colorClass + " "}>
     <div className="cardIcon">

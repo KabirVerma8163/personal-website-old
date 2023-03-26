@@ -20,11 +20,11 @@ export default function Home() {
   main_mdCSS = ""
   let main_lgCSS = "lg:flex-5 lg:my-1 lg:mx-12 lg:py-4 lg:px-16 lg:px-4"
   return (
-    <main className="h-screen w-screen flex flex-col lg:m-0 m-2">
+    <main className="h-screen w-screen flex flex-col lg:m-14 lg:mb-24 m-2">
       <div id="introduction" className={`flex flex-col ${main_lgCSS} ${main_smCSS} ${main_mdCSS}`}>
         <div id="header" className="flex flex-col py-2 pb-4">
-          <h1 className="lg:text-8xl md:text-5xl text-3xl font-bold">Hi, my name is <span className="text-white">Kabir</span></h1>
-          <h2 className="lg:text-6xl md:text-4xl lg:pt-2 lg:pl-1 pt-3 text-2xl font-bold">I'm a <TypeWriter strings={strings} colorClass="text-white" /></h2>
+          <h1 className="lg:text-8xl md:text-5xl text-3xl font-bold">Hi, my name is <span className="text-stone-100">Kabir</span></h1>
+          <h2 className="lg:text-6xl md:text-4xl lg:pt-2 lg:pl-1 pt-3 text-2xl font-bold">I'm a <TypeWriter strings={strings} colorClass="text-stone-100" /></h2>
         </div>
         <div id="intro-para" className="lg:text-4xl lg:mt-4 md:text-2xl md:mt-2 font-medium text-discordBlue">
           <p className='lg:mx-4 lg:mt-4 lg:mb-1 mx-1 leading-normal '>As a Computer Science student @ UWaterloo I want to build technology that has an impact. I love networking, coding and problem-solving. Having worked on many Full-Stack projects, I am currently exploring Data Science and Firmware. I'm looking for a co-op position for Summer 2023. 
